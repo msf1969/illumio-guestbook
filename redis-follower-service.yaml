@@ -4,8 +4,9 @@ kind: Service
 metadata:
   annotations:
     com.illumio.role: Database
+    com.illumio.env: project1
   name: redis-follower
-  namespace: guestbook
+  namespace: project1
   labels:
     app: redis
     role: follower
