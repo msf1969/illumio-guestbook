@@ -5,7 +5,7 @@ metadata:
   annotations:
     com.illumio.role: Web
   name: frontend
-  namespace: guestbook
+  namespace: project1
   labels:
     app: guestbook
     tier: frontend
