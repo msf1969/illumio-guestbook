@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
-  namespace: guestbook
+  namespace: project1
 spec:
   replicas: 3
   selector:
