@@ -4,6 +4,7 @@ kind: Service
 metadata:
   annotations:
     com.illumio.role: Web
+    com.illumio.env: project1
   name: frontend
   namespace: project1
   labels:
