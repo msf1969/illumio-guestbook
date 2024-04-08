@@ -14,6 +14,7 @@ spec:
     metadata:
       annotations:
         com.illumio.role: Web
+        com.illumio.env: project1
       labels:
         app: guestbook
         tier: frontend
