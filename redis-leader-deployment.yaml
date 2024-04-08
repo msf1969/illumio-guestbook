@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: redis-leader
-  namespace: guestbook
+  namespace: project1
   labels:
     app: redis
     role: leader
@@ -17,6 +17,7 @@ spec:
     metadata:
       annotations:
         com.illumio.role: Database
+        com.illumio.env: project1
       labels:
         app: redis
         role: leader
